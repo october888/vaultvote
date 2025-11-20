@@ -515,22 +515,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🚨 Known Issues
 
-### Blockchain Persistence on Replit
-
-When running on Replit, the Hardhat blockchain node may need to be manually restarted:
-
-```bash
-# In a separate terminal/shell
-npx hardhat node --config hardhat.config.cjs
-
-# Keep this running, then in another terminal:
-node scripts/simple-deploy.js
-npm run dev
-```
-
-We're working on automating this process for a smoother development experience.
 
 ---
 
